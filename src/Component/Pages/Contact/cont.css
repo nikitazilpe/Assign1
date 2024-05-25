@@ -1,0 +1,10 @@
+.container1{
+    min-height: 100vh;
+    background: url('../../../assets/img/Frame 617.png');
+    height: 10;
+    min-width: 150vh;
+    background-size: cover;
+    background-position: center;
+   
+}
+

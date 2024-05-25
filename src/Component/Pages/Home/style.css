@@ -1,0 +1,54 @@
+
+
+.container1{
+    min-width: 150vh;
+    min-height: 70vh;
+    background: url('../../../assets/img/Frame 617.png');
+    height: 10;
+    
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.hero2{
+    background-image: url('../../../assets/img/Group (1).png');;
+}
+
+
+
+   /* Base styles (optional, ensure consistent formatting) */
+   .section-logo {
+    padding: 0;
+  }
+
+  /* Mobile-specific layout adjustments using media queries */
+  @media only screen and (max-width: 768px) { /* Adjust breakpoint as needed */
+
+    .section-logo {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      /* OR (if you prefer a single column on mobile): */
+      /* grid-template-columns: 1fr; */
+    }
+
+    .section-logo img {
+      max-width: 100%; /* Ensure images scale down on smaller screens */
+    }
+  }
+
+.service-sec{
+    min-width: 150vh;
+}
+
+
+/*.container2{
+    min-height: 50vh;
+    background: url("../../../assets/images/Frame 618 (1).png");
+    min-width: 150vh;
+    background-size: cover;
+    background-position: center;
+}*/
+
+
+
+
